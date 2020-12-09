@@ -142,6 +142,7 @@
         }
         ul{
             list-style: none;
+            padding-bottom: 1rem;
         }
         .descriptions li{
             padding-left: 3rem;
@@ -296,7 +297,9 @@
                 //clear bin
                 clearBin.addEventListener('click', ()=>{
                     bin.removeChild(listElement)
+                    // if(toDoContainer.contain){}
                     localStorage.clear()
+                    location.reload();
                     //////////////////
                 })
 
