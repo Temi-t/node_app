@@ -126,6 +126,36 @@
             align-items: center;
             justify-items: center;
         }
+        .drag-tilt{
+            transform: rotate(20deg)
+        }
+        .descriptions{
+            color: yellow;
+            font-size: 3rem;
+            background: rgba(41, 27, 2, 0.2);
+            text-align: left;
+
+        }
+        p {
+            font-size: 3rem;
+            /* text-align: center; */
+        }
+        ul{
+            list-style: none;
+        }
+        .descriptions li{
+            padding-left: 3rem;
+        }
+        .how-to-use{
+            margin: 3rem auto;
+            background-color: rgba(32, 31, 31, 0.3);
+            border: 1px solid green;
+            color: purple;
+            width: 36rem;
+        }
+        .how-to-use p{
+            padding-left: 7rem;
+        }
     </style>
 
     <title>To Do  List</title>
@@ -140,7 +170,6 @@
         </form>
     </div>
     <div class='to-dos' >
-        <!-- <button type="button" id="clearTask">Clear list</button> -->
         <ul id='toDoContainer'>
             <!-- <li class="list-name">Youtube</li> -->
         </ul>
@@ -153,6 +182,14 @@
         </div>
     </div>
 
+    <div class='how-to-use' >
+        <p class="bin-head">How to use 📜</p>
+        <ul class='descriptions'>
+            <li> ✏ Add task +</li>
+            <li> ✏ click task to complete</li>
+            <li> ✏ drag to trash bin</li>
+        </ul>
+    </div>
 
 
 
